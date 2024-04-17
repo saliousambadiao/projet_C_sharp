@@ -117,22 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChangeLanguage" xml:space="preserve">
-    <value>Select</value>
+  <data name="ErrorMissingAddress" xml:space="preserve">
+    <value>dougalal sa deukouway</value>
   </data>
-  <data name="Language" xml:space="preserve">
-    <value>Language</value>
+  <data name="ErrorMissingCity" xml:space="preserve">
+    <value>Dougalal sa ville</value>
   </data>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>English</value>
+  <data name="ErrorMissingCountry" xml:space="preserve">
+    <value>Dougalal sa deuk</value>
   </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>French</value>
+  <data name="ErrorMissingName" xml:space="preserve">
+    <value>Dougalal sa toure</value>
   </data>
-  <data name="LanguageSpanish" xml:space="preserve">
-    <value>Spanish</value>
-  </data>
-  <data name="LanguageWolof" xml:space="preserve">
-    <value>Wolof</value>
+  <data name="ErrorMissingZipCode" xml:space="preserve">
+    <value>Dougalal sa  code postal</value>
   </data>
 </root>

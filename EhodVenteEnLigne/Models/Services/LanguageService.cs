@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Localization;
+using System;
 
 namespace EhodBoutiqueEnLigne.Models.Services
 {
@@ -20,25 +21,22 @@ namespace EhodBoutiqueEnLigne.Models.Services
         public string SetCulture(string language)
         {
             string culture;
-            switch (language)
+            switch (language.ToLowerInvariant()) 
             {
-                case ("English"):
+                case "english":
                     culture = "en";
                     break;
-                case ("French"):
+                case "french":
                     culture = "fr";
                     break;
-                case ("Spanish"):
-                    culture = "es";
-                    break;
-                case ("Wolof"):
+                case "wolof":
                     culture = "wo";
                     break;
                 default:
                     culture = "en";
                     break;
             }
-            
+
             return culture;
         }
 
@@ -47,9 +45,11 @@ namespace EhodBoutiqueEnLigne.Models.Services
         /// </summary>
         public void UpdateCultureCookie(HttpContext context, string culture)
         {
+            // Configurer le cookie pour expirer dans un an
             context.Response.Cookies.Append(
                 CookieRequestCultureProvider.DefaultCookieName,
-                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)));
+                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)),
+                new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) });
         }
     }
 }

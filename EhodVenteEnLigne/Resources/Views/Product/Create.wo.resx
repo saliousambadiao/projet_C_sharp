@@ -117,22 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChangeLanguage" xml:space="preserve">
-    <value>Select</value>
+  <data name="CreatProductTitle" xml:space="preserve">
+    <value>yokkal bagass</value>
   </data>
-  <data name="Language" xml:space="preserve">
-    <value>Language</value>
+  <data name="Description" xml:space="preserve">
+    <value>firi</value>
   </data>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>English</value>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
   </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>French</value>
+  <data name="Name" xml:space="preserve">
+    <value>tour</value>
   </data>
-  <data name="LanguageSpanish" xml:space="preserve">
-    <value>Spanish</value>
+  <data name="OK" xml:space="preserve">
+    <value>waw</value>
   </data>
-  <data name="LanguageWolof" xml:space="preserve">
-    <value>Wolof</value>
+  <data name="Price" xml:space="preserve">
+    <value>Ndieug</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>tolouway</value>
   </data>
 </root>

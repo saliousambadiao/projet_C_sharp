@@ -141,11 +141,11 @@
   <data name="Subtotal" xml:space="preserve">
     <value>Sous-total</value>
   </data>
-  <data name="YourCart" xml:space="preserve">
-    <value>Votre panier</value>
-  </data>
   <data name="Total" xml:space="preserve">
     <value>Total</value>
     <comment>Total</comment>
+  </data>
+  <data name="YourCart" xml:space="preserve">
+    <value>Votre panier</value>
   </data>
 </root>

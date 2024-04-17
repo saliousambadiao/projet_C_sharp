@@ -130,6 +130,9 @@
     <value>Français</value>
   </data>
   <data name="LanguageSpanish" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="LanguageWolof" xml:space="preserve">
     <value>Wolof</value>
   </data>
 </root>
